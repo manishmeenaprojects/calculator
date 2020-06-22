@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Soft Calculator</title>
+</head>
+<body>
+    
+    <div id="main">
+
+        <div class="title">Ultimate Calculator</div>
+
+        <table>
+            <tr>
+                <td colspan="3"><input type="text" id="result"></td>
+                <td><input type="button" value="AC" class="btnClr" onclick="clr()"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="1" class="btnNum" onclick="d('1')"></td>
+                <td><input type="button" value="2" class="btnNum" onclick="d('2')"></td>
+                <td><input type="button" value="3" class="btnNum" onclick="d('3')"></td>
+                <td><input type="button" value="/" class="btnOp" onclick="d('/')"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="4" class="btnNum" onclick="d('4')"></td>
+                <td><input type="button" value="5" class="btnNum" onclick="d('5')"></td>
+                <td><input type="button" value="6" class="btnNum" onclick="d('6')"></td>
+                <td><input type="button" value="-" class="btnOp" onclick="d('-')"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="7" class="btnNum" onclick="d('7')"></td>
+                <td><input type="button" value="8" class="btnNum" onclick="d('8')"></td>
+                <td><input type="button" value="9" class="btnNum" onclick="d('9')"></td>
+                <td><input type="button" value="+" class="btnOp" onclick="d('+')"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="." class="btnOp" onclick="d('.')"></td>
+                <td><input type="button" value="0" class="btnNum" onclick="d('0')"></td>
+                <td><input type="button" value="=" class="btnSol" onclick="solve()"></td>
+                <td><input type="button" value="*" class="btnOp" onclick="d('*')"></td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

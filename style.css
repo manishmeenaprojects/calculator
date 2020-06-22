@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0 0 30px 0;
+    color: #181818;
+    text-align: center;
+}
+
+table {
+    border: 5px solid rgb(36, 36, 36);
+    background: #3b3b3b;
+    box-shadow: inset -3px 3px 3px rgba(134, 134, 134, 0.5);
+}
+
+input[type="text"] {
+    padding: 18px 20px;
+    width: 100%;
+    font-size: 18px;
+    margin: 0 5px;
+    border: none;
+    outline: none;
+}
+
+input[type="button"] {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btnNum {
+    background: #615f5f;
+    color: #ffffff;
+}
+
+.btnNum:hover {
+    background: rgb(206, 206, 206);
+    color: #181818;
+}
+
+.btnSol {
+    background: rgb(32, 253, 142);
+}
+
+.btnClr {
+    background: red;
+}
+
+.btnOp {
+    background: #cfcefd;
+    color: #000;
+}
